@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Shin</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #0f172a;
+        color: #e2e8f0;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(90deg, #0f172a, #7f1d1d);
+        padding: 30px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        color: #f87171;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        color: #f87171;
+        margin: 0 12px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+
+    section {
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        border-left: 5px solid #ef4444;
+        padding-left: 10px;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border-left: 4px solid #ef4444;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(239,68,68,0.4);
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    .skill-bar {
+        margin-top: 10px;
+    }
+
+    .bar {
+        height: 8px;
+        background: #334155;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .fill {
+        height: 100%;
+        background: #ef4444;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: #7f1d1d;
+        margin-top: 40px;
+    }
+
+    footer p {
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Shin</h1>
+    <p>Pelajar | Future Developer</p>
+
+    <nav>
+        <a href="#about">Tentang</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Tentang Gue</h2>
+    <p>
+        Gw pelajar yang lagi serius belajar programming, fokus ke web development.
+        Masih tahap berkembang, tapi konsisten belajar dan bikin project biar ga cuma teori doang.
+        Target ke depan pengen jadi developer yang beneran bisa diandelin, bukan cuma gaya doang.
+    </p>
+</section>
+
+<section id="skill">
+    <h2>Skill</h2>
+
+    <p>HTML</p>
+    <div class="bar"><div class="fill" style="width: 80%"></div></div>
+
+    <p>CSS</p>
+    <div class="bar"><div class="fill" style="width: 70%"></div></div>
+
+    <p>JavaScript</p>
+    <div class="bar"><div class="fill" style="width: 50%"></div></div>
+
+</section>
+
+<section id="project">
+    <h2>Project</h2>
+
+    <div class="card">
+        <h3>Website Landing Page</h3>
+        <p>Membuat website sederhana dengan desain responsive menggunakan HTML & CSS.</p>
+    </div>
+
+    <div class="card">
+        <h3>To-Do List App</h3>
+        <p>Aplikasi untuk mencatat kegiatan harian menggunakan JavaScript.</p>
+    </div>
+
+    <div class="card">
+        <h3>Mini Portfolio</h3>
+        <p>Website portofolio pribadi untuk menampilkan skill dan project.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: shintersakiti@gmail.com</p>
+    <p>GitHub: github.com/username</p>
+</section>
+
+<footer>
+    <p>© 2026 Shin | Masih belajar tapi ga nyerah</p>
+</footer>
+
+</body>
+</html>
